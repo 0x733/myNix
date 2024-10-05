@@ -5,7 +5,7 @@
     ./bat.nix                         # better cat command
     ./btop.nix                        # resouces monitor 
     ./cava.nix                        # audio visualizer
-    #./discord/discord.nix             # discord with gruvbox
+    ./discord/discord.nix             # discord with gruvbox
     ./fastfetch.nix                   # fetch tool
     #./floorp/floorp.nix               # firefox based browser
     ./mullvad-browser/mullvad.nix      # firefox-based privacy browser
