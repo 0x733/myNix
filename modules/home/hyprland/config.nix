@@ -165,8 +165,9 @@
         "$mainMod SHIFT, W, exec, vm-start"
 
         # screenshot
-        "$mainMod, Print, exec, grimblast --notify --cursor --freeze save area ~/Pictures/$(date +'%Y-%m-%d-At-%Ih%Mm%Ss').png"
-        ",Print, exec, grimblast --notify --cursor --freeze copy area"
+        ",Print, exec, screenshot --copy"
+        "$mainMod, Print, exec, screenshot --save"
+        "$mainMod SHIFT, Print, exec, screenshot --swappy"
 
         # switch focus
         "$mainMod, left, movefocus, l"
@@ -250,9 +251,9 @@
 
       # windowrule
       windowrule = [
-        "float,qView"
-        "center,qView"
-        "size 1200 725,qView"
+        "float,Viewnior"
+        "center,Viewnior"
+        "size 1200 800,Viewnior"
         "float,imv"
         "center,imv"
         "size 1200 725,imv"

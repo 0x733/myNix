@@ -37,8 +37,8 @@ in
     playerctl                         # controller for media players
     poweralertd
     programmer-calculator
-    # qview                             # minimal image viewer
     ripgrep                           # grep replacement
+    swappy                            # snapshot editing tool
     tdf                               # cli pdf viewer
     tldr
     todo                              # cli todo list
@@ -65,6 +65,7 @@ in
     bleachbit                         # cache cleaner
     gimp
     libreoffice
+    losslesscut-bin
     nix-prefetch-github
     obs-studio
     pavucontrol                       # pulseaudio volume controle (GUI)
