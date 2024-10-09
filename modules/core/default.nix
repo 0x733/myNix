@@ -12,6 +12,7 @@
     ./services.nix
     #./steam.nix
     ./system.nix
+    ./systemd.nix
     ./user.nix
     ./wayland.nix
     ./virtualization.nix
