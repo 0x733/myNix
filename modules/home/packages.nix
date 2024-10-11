@@ -11,7 +11,7 @@ in
     binsider
     bitwise                           # cli tool for bit / hex manipulation
     caligula                          # User-friendly, lightweight TUI for disk imaging
-    cliphist                          # clipboard manager
+    dconf-editor
     docfd                             # TUI multiline fuzzy document finder
     eza                               # ls replacement
     entr                              # perform action when file change
@@ -23,6 +23,7 @@ in
     gtrash                            # rm replacement, put deleted files in system trash
     hexdump
     imv                               # image viewer
+    jq                                # JSON processor
     killall
     lazygit
     libnotify
@@ -65,10 +66,10 @@ in
     bleachbit                         # cache cleaner
     gimp
     libreoffice
-    losslesscut-bin
     nix-prefetch-github
     obs-studio
     pavucontrol                       # pulseaudio volume controle (GUI)
+    pitivi                            # video editing
     qalculate-gtk                     # calculator
     soundwireserver                   # pass audio to android phone
     thunderbird
